@@ -22,9 +22,11 @@ function changeImg(){
 	}
 
 	setTimeout("changeImg()", time);
+
+	
 }
 
-window.onload=changeImg;
+
 
 
 function pokaz(id)
@@ -260,6 +262,7 @@ function localStorageFunkcja(){
 
 	return tresc;
 }
+
 function usunLocalStorage(){
 
 	var puste=" jeszcze nikt.";
